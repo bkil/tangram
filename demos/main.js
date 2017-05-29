@@ -381,8 +381,9 @@ Enjoy!
             'Slovenian': 'sl',
             'Croatian': 'hr'
         };
-        gui.language = 'en';
+        gui.language = 'hu';
         scene.config.global.language = 'hu';
+        scene.updateConfig();
         gui.add(gui, 'language', langs).onChange(function(value) {
             scene.config.global.language = value;
             scene.updateConfig();
