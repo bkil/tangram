@@ -382,7 +382,7 @@ Enjoy!
             'Croatian': 'hr'
         };
         gui.language = 'en';
-        scene.config.global.language = hu;
+        scene.config.global.language = 'hu';
         gui.add(gui, 'language', langs).onChange(function(value) {
             scene.config.global.language = value;
             scene.updateConfig();
