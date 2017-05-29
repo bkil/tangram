@@ -371,14 +371,15 @@ Enjoy!
         // Language selector
         var langs = {
             '(default)': null,
+            'Hungarian': 'hu',
+            'Romanian': 'ro',
+            'Slovakian': 'sk',
+            'Ukrainian': 'uk',
             'English': 'en',
-            'Russian': 'ru',
-            'Japanese': 'ja',
             'German': 'de',
-            'French': 'fr',
-            'Arabic': 'ar',
-            'Hindi': 'hi',
-            'Spanish': 'es'
+            'Serbian': 'sr',
+            'Slovenian': 'sl',
+            'Croatian': 'hr'
         };
         gui.language = 'en';
         gui.add(gui, 'language', langs).onChange(function(value) {
